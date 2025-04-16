@@ -1,0 +1,47 @@
+.reviews {
+    &__title {
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__post {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 52px;
+        width: 880px;
+    }
+    &__picture {
+        max-width: 169px;
+        height: 169px;
+    }
+    &__text {
+        width: 651px;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__achievements {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__message {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #0d0d0d;
+        span {
+            font-family: 'Museo Moderno';
+            font-weight: 300;
+        }
+    }
+}

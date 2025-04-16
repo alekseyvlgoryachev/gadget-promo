@@ -1,0 +1,23 @@
+.carousel .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .carousel .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-color: #6b6b6b;
+    border-radius: 50%;
+  }
+  
+  .carousel .slick-dots li[class=slick-active] button {
+    box-shadow: 3px 3px 20px #c70101;
+    border-color: #c70101;
+  }

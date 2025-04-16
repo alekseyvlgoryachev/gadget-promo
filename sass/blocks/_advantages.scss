@@ -1,0 +1,44 @@
+.advantages {
+    min-height: 470px;
+    padding: 77px 0 65px 0;
+    background-color: #f6f6f6;
+    &__title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 277px;
+        &-picture {
+            display: block;
+            margin: 0 auto;
+        }
+        &-title {
+            margin-top: 35px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-text {
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 300;
+            text-align: center;
+            a {
+                font-family: 'Museo Moderno';
+                font-weight: 300;
+                color: #ff0000;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+        }
+    }
+}
